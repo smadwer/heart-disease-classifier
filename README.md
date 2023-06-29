@@ -1,23 +1,36 @@
 # Heart Disease Classifier
-This code uses the scikit-learn library in Python to train a decision tree classifier on a dataset of patients' medical information, to predict whether or not they have heart disease.
+
+This project uses machine learning to predict whether or not a patient has heart disease based on their medical information. We use three different models (Decision Tree, Random Forest, and Logistic Regression) and compare their performance.
 
 # Requirements
-scikit-learn
-pandas
+
+- Python 3.x
+- scikit-learn
+- pandas
+- matplotlib
+- numpy
 
 ## Usage
-Clone or download the repository
-Run the following command to execute the code:
-Copy code
-**python heart_disease_classifier.py**
 
-The output of the code will be the predicted class (0 or 1) for a given set of features.
-Dataset
+1 - Clone or download the repository.
+2 - Run the script with the command: python main.py
 
-The dataset used in this code is the Heart Disease dataset from the UCI Machine Learning Repository. It consists of medical information of patients such as age, sex, cholesterol levels, blood pressure, etc., and their respective target classes (0 for no heart disease, 1 for heart disease).
+The script will train the models on the dataset, evaluate their performance, and display a bar plot comparing the performance of the models.
 
-## Model
-The decision tree classifier model is trained on the given dataset to predict the target class of a patient based on their medical information. The model is trained using the fit method of the classifier.
+## Dataset
 
-## Output
-The output of the code is the predicted target class (0 or 1) of a patient with given medical information.
+The dataset used in this project is the Heart Disease dataset from the UCI Machine Learning Repository. It consists of medical information of patients such as age, sex, cholesterol levels, blood pressure, etc., and a target variable indicating whether or not they have heart disease (0 for no heart disease, 1 for heart disease).
+
+## Models
+
+I used three different models:
+
+Decision Tree
+Random Forest
+Logistic Regression
+Each model is trained on the dataset and evaluated using five different metrics: accuracy, precision, recall, F1-score, and ROC AUC score.
+
+## Results
+
+The script outputs the performance of each model in terms of the five metrics and displays a bar plot comparing the performance of the models.
+
