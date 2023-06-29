@@ -12,8 +12,8 @@ This project uses machine learning to predict whether or not a patient has heart
 
 ## Usage
 
-1 - Clone or download the repository.
-2 - Run the script with the command: python main.py
+ - Clone or download the repository.
+ - Run the script with the command: python main.py
 
 The script will train the models on the dataset, evaluate their performance, and display a bar plot comparing the performance of the models.
 
